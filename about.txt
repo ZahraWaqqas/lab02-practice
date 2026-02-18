@@ -1,2 +1,55 @@
 Name: Zahra Waqqas
 Favourite programming language: Python
+
+Lab 02 291234050
+1.4 Exercises: Git Setup
+4. It sets notepad as the main code editor. After running git config core.editor it gives notepad as the core editor.
+
+2.3 Exercises: First Repository
+3. Before staging nothing appears. But after staging upon running git diff it shows the following output:
+diff --git a/greet.py b/greet.py
+index 410df05..30eb3dd 100644
+--- a/greet.py
++++ b/greet.py
+@@ -1,3 +1,3 @@
+ def greet ( name ) :
+-    return f"Hello , { name }! Welcome to Git ."
++    return f"Hello , { name }! Welcome to Git ! :)"
+ print ( greet (" World ") )
+\ No newline at end of file
+
+- means that that line has been changed. + symbol shows what has been added to its place instead.
+
+4. 197fdad (HEAD -> master) Add exclamation mark and a smiley face to line 2
+e4e014c Add goodbye function
+868bbb4 Add greeting function
+
+5. [master af5bf31] Add file_a and file_b
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file_a.py
+ create mode 100644 file_b.py
+
+6. It uses these hashes as IDs to track changes and uniquely identify specific versions of each file. 
+
+3.3 Exercises: Undoing Mistakes
+2. git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   goodbye.py
+
+5. Shows nothing
+
+6. It is safer as you might lose certain part of important code and need that version later for any reason. While working with a teammate, they won't be able to track changes.
+
+4.3 Exercises: Working with GitHub
+2. shows:
+origin  https://github.com/ZahraWaqqas/lab02-practice.git (fetch)
+origin  https://github.com/ZahraWaqqas/lab02-practice.git (push)
+means that Zahra Waqqas owns the git and is working on it. 
+
+3. It shows the changes once file is clicked on but the comment only shows the most recent change.
+
+5. The code will be divided into several emails which will create clutter. GitHub allows you to view all changes, both temporary and permanent, and work around them accordingly in an organized manner. If you make any errors, they can be easily removed yet also tracked incase you need to know what bugs you fixed.
+
+6. 
